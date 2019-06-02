@@ -8,6 +8,7 @@ public class ServletInitializer extends SpringBootServletInitializer {
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
 		System.out.println("edited by other devloper");
+		System.out.println("Arpsn");
 		return application.sources(SpringBootDemoApplication.class);
 	}
 
